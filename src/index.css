@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --focus-color: #42a0da;
+  --focus-outline: 0.1875rem solid var(--focus-color);
+  --focus-outline-offset: 0.125rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply text-black font-sans;
+}
+
+:focus-visible {
+  outline: var(--focus-outline);
+  outline-offset: var(--focus-outline-offset);
+}
+
+.animated-content {
+  transform: translate(0px, 120%);
+  opacity: 0;
+  transition: all 0.8s ease 0s;
+}
+.animated-content._active {
+  transform: translate(0px, 0);
+  opacity: 1;
+}

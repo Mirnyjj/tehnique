@@ -1,0 +1,15 @@
+export const carouselFoto = [
+  "src/img/carousel/photo1.jpg",
+  "src/img/carousel/photo2.jpg",
+  "src/img/carousel/photo3.jpg",
+  "src/img/carousel/photo4.jpg",
+  "src/img/carousel/photo5.jpg",
+  "src/img/carousel/photo7.jpg",
+  "src/img/carousel/photo8.jpg",
+  "src/img/carousel/photo9.jpg",
+  "src/img/carousel/photo10.jpg",
+  "src/img/carousel/photo11.jpg",
+  "src/img/carousel/photo12.jpg",
+  "src/img/carousel/photo13.jpg",
+  "src/img/carousel/photo14.jpg",
+];
